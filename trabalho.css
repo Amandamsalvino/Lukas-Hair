@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-color: #000000;
+    padding: 40px;
+    
+}
+
+h1 {
+
+    display: flex;
+    justify-content: center;
+    color: #fff533;
+    font-family: "Pinyon Script", cursive;
+    font-size: 50px;
+    padding-top: 100px;
+    
+}
+
+main {
+
+    display: grid;
+    grid-template-columns: 400px 400px  ;   
+    gap: 100px;
+    padding: 20px;
+    margin-top: 90px;
+    justify-content: center;
+    
+}
+
+img {
+
+    width: 100%;
+    border-radius: 20px;
+    height: 450px;
+    border: solid 3px #fff533;
+    box-shadow: 0px 6px 6px 1px rgba(230, 172, 16, 0.842);
+    
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+
+.logo-man {
+
+    border: none;
+    box-shadow: none;
+    width: auto;
+    height: auto;
+    margin-top: 8%;
+}

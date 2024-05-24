@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-color: #000000;
+    padding-top: 80px;
+    
+}
+
+h1 {
+
+    display: flex;
+    justify-content: center;
+    color: rgba(230, 172, 16, 0.842);
+    font-family: "Pinyon Script", cursive;
+    font-size: 45px;
+}
+
+div {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+ul {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-top: 15%;
+    
+   
+}
+
+li {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    gap: 20px;
+}
+
+
+
+img {
+
+    width: 100%;
+}
+
+img:hover {
+   opacity: 0.8;
+}
+
+img:active {
+
+    opacity: 0.6;
+ }
+
+.whats {
+
+    width: 200px;
+    margin-left: 0px;
+    
+}
+
+aside {
+
+    display: flex;
+    justify-content: center;
+    padding-right: 80px;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    margin-bottom: 30px;
+   
+}
+
+iframe {
+
+    width: 700px;
+    height: 500px;
+    border-radius: 15px;
+    border: solid 6px #fff533;
+    box-shadow: 0px 8px 8px rgba(230, 172, 16, 0.842);
+}
+
+p {
+    color: rgba(230, 172, 16, 0.842);
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'poppins';
+}
