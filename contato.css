@@ -122,7 +122,7 @@ p {
         color: rgba(230, 172, 16, 0.842);
         font-family: "Pinyon Script", cursive;
         font-size: 17px;
-        padding-right: 40px;
+       
     }
 
     div {
@@ -138,7 +138,7 @@ p {
         flex-direction: column;
         justify-content: center;
         margin-top: 15%;
-        padding-right: 60px;
+        
     }
 
 
