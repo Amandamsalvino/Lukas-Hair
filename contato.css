@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+:root {
+    --main-color: #d3ad7f;
+    --black: #13131a;
+    --bg: #010103;
+    --border: 0.1rem solid rgba(255,255,255,0.3);
+    
 
+}
 
 
 * {
@@ -11,7 +18,7 @@
 
 body {
 
-    background-color: #000000;
+    background-color: var(--bg);
     padding-top: 80px;
     
 }
@@ -174,6 +181,7 @@ p {
     iframe {
         width: 100%;
         height: 280px;
+        margin-left: 60px;
         border-radius: 15px;
         border: solid 6px #fff533;
         box-shadow: 0px 8px 8px rgba(230, 172, 16, 0.842);
@@ -184,6 +192,12 @@ p {
         font-size: 19px;
         font-weight: bold;
         font-family: 'poppins';
+        
+    }
+
+    aside p {
+
+        margin-left: 80px;
     }
 
     .whats {

@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+:root {
+    --main-color: #d3ad7f;
+    --black: #13131a;
+    --bg: #010103;
+    --border: 0.1rem solid rgba(255,255,255,0.3);
+    
 
+}
 
 * {
     box-sizing: border-box;
@@ -12,7 +19,7 @@
 body {
 
     margin-top: 80px;
-    background-color: #000000;
+    background-color: var(--bg);
 }
 
 main {
@@ -27,10 +34,12 @@ h1 {
 
     display: flex;
     justify-content: center;
-    color: #fff533;
+    color: var(--main-color);
     font-family: "Pinyon Script", cursive;
     font-size: 50px;
-    padding-bottom: 100px;
+    margin-bottom: 100px;
+    padding-bottom: 20px;
+    border-bottom: var(--border);
     
 }
 
@@ -40,14 +49,16 @@ ul {
     text-decoration: none;
     gap: 100px;
     padding: 30px;
+    
    
 }
 
 li {
 
-    border: solid 3px #fff533;
-    box-shadow: 0px 6px 6px 1px #f1ff33;
+    border: solid 3px #d3ad7f;
+    box-shadow: 0px 6px 6px 1px #d3ad7f;
     border-radius: 15px;
+    
 }
 
 img {
@@ -59,7 +70,7 @@ img {
 }
 
 li:hover {
-    box-shadow: 0px 8px 8px rgba(230, 172, 16, 0.842);
+    box-shadow: 0px 8px 8px rgba(211, 173, 127, 0.842);
 }
 
 li:active {
@@ -82,7 +93,7 @@ li:active {
     h1 {
         display: flex;
         justify-content: center;
-        color: #fff533;
+        
         font-family: "Pinyon Script", cursive;
         font-size: 30px;
         padding-bottom: 50px;
